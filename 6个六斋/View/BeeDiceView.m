@@ -224,26 +224,6 @@
     return self;
 }
 
-- (UIImage *)antiAlias:(UIImageView *)imgView
-{
-    CGFloat border = 1.0f;
-    CGRect rect = CGRectMake(border, border, imgView.image.size.width-2*border, imgView.image.size.height-2*border);
-    UIImage *img = nil;
-    
-    UIGraphicsBeginImageContext(CGSizeMake(rect.size.width,rect.size.height));
-    [imgView.image drawInRect:CGRectMake(-1, -1, imgView.image.size.width, imgView.image.size.height)];
-    img = UIGraphicsGetImageFromCurrentImageContext();
-    UIGraphicsEndImageContext();
-    
-    UIGraphicsBeginImageContext(imgView.image.size);
-    [img drawInRect:rect];
-    UIImage* antiImage = UIGraphicsGetImageFromCurrentImageContext();
-    UIGraphicsEndImageContext();
-    
-    return antiImage;
-}
-
-
 
 
 @end
