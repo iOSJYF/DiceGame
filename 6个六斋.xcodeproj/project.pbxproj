@@ -1,0 +1,834 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A229825DEE009E152B80279 /* libPods-6个六斋.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 163C2EFAEFB0463A84507466 /* libPods-6个六斋.a */; };
+		5C26D5252029881C001F266C /* BeeOneDiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C26D5242029881C001F266C /* BeeOneDiceViewController.m */; };
+		5C26D52C2029962E001F266C /* BeeThreeDiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C26D52B2029962E001F266C /* BeeThreeDiceViewController.m */; };
+		5C26D52F2029A759001F266C /* BeeThreeDiceContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C26D52E2029A759001F266C /* BeeThreeDiceContentView.m */; };
+		5C679A48202ADA5D00700310 /* yaoshaizi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5C679A47202ADA5C00700310 /* yaoshaizi.mp3 */; };
+		5C679A4A202ADA6C00700310 /* zuobisound.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5C679A49202ADA6B00700310 /* zuobisound.m4a */; };
+		5C679A4F202ADD8400700310 /* dushen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5C679A4E202ADD8400700310 /* dushen.mp3 */; };
+		5C7A06D92019BBE8009DF151 /* BeeDiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7A06D82019BBE8009DF151 /* BeeDiceView.m */; };
+		5C7A06DF2019CAC4009DF151 /* UIView+WhenTappedBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7A06DD2019CAC4009DF151 /* UIView+WhenTappedBlocks.m */; };
+		5C83D1832021AC3F009F4C2B /* BeeBragViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C83D1822021AC3F009F4C2B /* BeeBragViewController.m */; };
+		5C83D1862021AFD4009F4C2B /* BeeBragContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C83D1852021AFD4009F4C2B /* BeeBragContentView.m */; };
+		5C969D6020187E46004BBEB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C969D5F20187E46004BBEB8 /* AppDelegate.m */; };
+		5C969D6620187E46004BBEB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C969D6420187E46004BBEB8 /* Main.storyboard */; };
+		5C969D6820187E46004BBEB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C969D6720187E46004BBEB8 /* Assets.xcassets */; };
+		5C969D6B20187E46004BBEB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C969D6920187E46004BBEB8 /* LaunchScreen.storyboard */; };
+		5C969D6E20187E46004BBEB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C969D6D20187E46004BBEB8 /* main.m */; };
+		5C969D7820187E47004BBEB8 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C969D7720187E47004BBEB8 /* ____Tests.m */; };
+		5C969D8320187E47004BBEB8 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C969D8220187E47004BBEB8 /* ____UITests.m */; };
+		5C969D9320188087004BBEB8 /* BeeHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C969D9220188087004BBEB8 /* BeeHomeViewController.m */; };
+		5CBC1532202BDF54007E5751 /* BeeOneExplainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CBC1531202BDF54007E5751 /* BeeOneExplainViewController.m */; };
+		5CBC1535202BE9C8007E5751 /* BeeFiveExplainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CBC1534202BE9C8007E5751 /* BeeFiveExplainViewController.m */; };
+		5CBC1538202BEC49007E5751 /* BeeThreeExplainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CBC1537202BEC49007E5751 /* BeeThreeExplainViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C969D7420187E47004BBEB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C969D5320187E46004BBEB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C969D5A20187E46004BBEB8;
+			remoteInfo = "6个六斋";
+		};
+		5C969D7F20187E47004BBEB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C969D5320187E46004BBEB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C969D5A20187E46004BBEB8;
+			remoteInfo = "6个六斋";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		163C2EFAEFB0463A84507466 /* libPods-6个六斋.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-6个六斋.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EC413F5379EDF00274AAB0C /* Pods-6个六斋.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-6个六斋.release.xcconfig"; path = "Pods/Target Support Files/Pods-6个六斋/Pods-6个六斋.release.xcconfig"; sourceTree = "<group>"; };
+		5C26D5232029881C001F266C /* BeeOneDiceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeeOneDiceViewController.h; sourceTree = "<group>"; };
+		5C26D5242029881C001F266C /* BeeOneDiceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeeOneDiceViewController.m; sourceTree = "<group>"; };
+		5C26D52A2029962E001F266C /* BeeThreeDiceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeeThreeDiceViewController.h; sourceTree = "<group>"; };
+		5C26D52B2029962E001F266C /* BeeThreeDiceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeeThreeDiceViewController.m; sourceTree = "<group>"; };
+		5C26D52D2029A759001F266C /* BeeThreeDiceContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeeThreeDiceContentView.h; sourceTree = "<group>"; };
+		5C26D52E2029A759001F266C /* BeeThreeDiceContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeeThreeDiceContentView.m; sourceTree = "<group>"; };
+		5C679A47202ADA5C00700310 /* yaoshaizi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yaoshaizi.mp3; sourceTree = "<group>"; };
+		5C679A49202ADA6B00700310 /* zuobisound.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = zuobisound.m4a; sourceTree = "<group>"; };
+		5C679A4E202ADD8400700310 /* dushen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dushen.mp3; sourceTree = "<group>"; };
+		5C7A06D72019BBE7009DF151 /* BeeDiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeeDiceView.h; sourceTree = "<group>"; };
+		5C7A06D82019BBE8009DF151 /* BeeDiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeeDiceView.m; sourceTree = "<group>"; };
+		5C7A06DD2019CAC4009DF151 /* UIView+WhenTappedBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WhenTappedBlocks.m"; sourceTree = "<group>"; };
+		5C7A06DE2019CAC4009DF151 /* UIView+WhenTappedBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WhenTappedBlocks.h"; sourceTree = "<group>"; };
+		5C83D1812021AC3F009F4C2B /* BeeBragViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeeBragViewController.h; sourceTree = "<group>"; };
+		5C83D1822021AC3F009F4C2B /* BeeBragViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeeBragViewController.m; sourceTree = "<group>"; };
+		5C83D1842021AFD4009F4C2B /* BeeBragContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeeBragContentView.h; sourceTree = "<group>"; };
+		5C83D1852021AFD4009F4C2B /* BeeBragContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeeBragContentView.m; sourceTree = "<group>"; };
+		5C969D5B20187E46004BBEB8 /* 6个六斋.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "6个六斋.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C969D5E20187E46004BBEB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5C969D5F20187E46004BBEB8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5C969D6520187E46004BBEB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C969D6720187E46004BBEB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C969D6A20187E46004BBEB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C969D6C20187E46004BBEB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C969D6D20187E46004BBEB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C969D7320187E47004BBEB8 /* 6个六斋Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "6个六斋Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C969D7720187E47004BBEB8 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		5C969D7920187E47004BBEB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C969D7E20187E47004BBEB8 /* 6个六斋UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "6个六斋UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C969D8220187E47004BBEB8 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		5C969D8420187E47004BBEB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C969D9020187EE3004BBEB8 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		5C969D9120188087004BBEB8 /* BeeHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeeHomeViewController.h; sourceTree = "<group>"; };
+		5C969D9220188087004BBEB8 /* BeeHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeeHomeViewController.m; sourceTree = "<group>"; };
+		5CBC1530202BDF54007E5751 /* BeeOneExplainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeeOneExplainViewController.h; sourceTree = "<group>"; };
+		5CBC1531202BDF54007E5751 /* BeeOneExplainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeeOneExplainViewController.m; sourceTree = "<group>"; };
+		5CBC1533202BE9C8007E5751 /* BeeFiveExplainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeeFiveExplainViewController.h; sourceTree = "<group>"; };
+		5CBC1534202BE9C8007E5751 /* BeeFiveExplainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeeFiveExplainViewController.m; sourceTree = "<group>"; };
+		5CBC1536202BEC49007E5751 /* BeeThreeExplainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeeThreeExplainViewController.h; sourceTree = "<group>"; };
+		5CBC1537202BEC49007E5751 /* BeeThreeExplainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeeThreeExplainViewController.m; sourceTree = "<group>"; };
+		C1DA1C0EE0683B20996660EF /* Pods-6个六斋.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-6个六斋.debug.xcconfig"; path = "Pods/Target Support Files/Pods-6个六斋/Pods-6个六斋.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C969D5820187E46004BBEB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A229825DEE009E152B80279 /* libPods-6个六斋.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C969D7020187E47004BBEB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C969D7B20187E47004BBEB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C26D51F2029875B001F266C /* 单骰摇晃 */ = {
+			isa = PBXGroup;
+			children = (
+				5C26D5222029876A001F266C /* Model */,
+				5C26D52120298768001F266C /* View */,
+				5C26D52020298765001F266C /* Controller */,
+			);
+			path = "单骰摇晃";
+			sourceTree = "<group>";
+		};
+		5C26D52020298765001F266C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5C26D5232029881C001F266C /* BeeOneDiceViewController.h */,
+				5C26D5242029881C001F266C /* BeeOneDiceViewController.m */,
+				5CBC1530202BDF54007E5751 /* BeeOneExplainViewController.h */,
+				5CBC1531202BDF54007E5751 /* BeeOneExplainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5C26D52120298768001F266C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5C26D5222029876A001F266C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5C26D5262029915B001F266C /* 比大小 */ = {
+			isa = PBXGroup;
+			children = (
+				5C26D52920299167001F266C /* Model */,
+				5C26D52820299165001F266C /* View */,
+				5C26D52720299163001F266C /* Controller */,
+			);
+			path = "比大小";
+			sourceTree = "<group>";
+		};
+		5C26D52720299163001F266C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5C26D52A2029962E001F266C /* BeeThreeDiceViewController.h */,
+				5C26D52B2029962E001F266C /* BeeThreeDiceViewController.m */,
+				5CBC1536202BEC49007E5751 /* BeeThreeExplainViewController.h */,
+				5CBC1537202BEC49007E5751 /* BeeThreeExplainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5C26D52820299165001F266C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5C26D52D2029A759001F266C /* BeeThreeDiceContentView.h */,
+				5C26D52E2029A759001F266C /* BeeThreeDiceContentView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5C26D52920299167001F266C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5C7A06DC2019CAC4009DF151 /* 手势 */ = {
+			isa = PBXGroup;
+			children = (
+				5C7A06DD2019CAC4009DF151 /* UIView+WhenTappedBlocks.m */,
+				5C7A06DE2019CAC4009DF151 /* UIView+WhenTappedBlocks.h */,
+			);
+			path = "手势";
+			sourceTree = "<group>";
+		};
+		5C83D17D2021ABEF009F4C2B /* 大话骰 */ = {
+			isa = PBXGroup;
+			children = (
+				5C83D1802021AC1B009F4C2B /* Model */,
+				5C83D17F2021AC18009F4C2B /* View */,
+				5C83D17E2021AC13009F4C2B /* Controller */,
+			);
+			path = "大话骰";
+			sourceTree = "<group>";
+		};
+		5C83D17E2021AC13009F4C2B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5C83D1812021AC3F009F4C2B /* BeeBragViewController.h */,
+				5C83D1822021AC3F009F4C2B /* BeeBragViewController.m */,
+				5CBC1533202BE9C8007E5751 /* BeeFiveExplainViewController.h */,
+				5CBC1534202BE9C8007E5751 /* BeeFiveExplainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5C83D17F2021AC18009F4C2B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5C83D1842021AFD4009F4C2B /* BeeBragContentView.h */,
+				5C83D1852021AFD4009F4C2B /* BeeBragContentView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5C83D1802021AC1B009F4C2B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5C969D5220187E46004BBEB8 = {
+			isa = PBXGroup;
+			children = (
+				5C969D5D20187E46004BBEB8 /* 6个六斋 */,
+				5C969D7620187E47004BBEB8 /* 6个六斋Tests */,
+				5C969D8120187E47004BBEB8 /* 6个六斋UITests */,
+				5C969D5C20187E46004BBEB8 /* Products */,
+				DB88238EB0A8C5496339B8FD /* Pods */,
+				B2ABA2F27B40BE71E40CF012 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5C969D5C20187E46004BBEB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C969D5B20187E46004BBEB8 /* 6个六斋.app */,
+				5C969D7320187E47004BBEB8 /* 6个六斋Tests.xctest */,
+				5C969D7E20187E47004BBEB8 /* 6个六斋UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C969D5D20187E46004BBEB8 /* 6个六斋 */ = {
+			isa = PBXGroup;
+			children = (
+				5C679A49202ADA6B00700310 /* zuobisound.m4a */,
+				5C679A47202ADA5C00700310 /* yaoshaizi.mp3 */,
+				5C679A4E202ADD8400700310 /* dushen.mp3 */,
+				5C26D5262029915B001F266C /* 比大小 */,
+				5C26D51F2029875B001F266C /* 单骰摇晃 */,
+				5C83D17D2021ABEF009F4C2B /* 大话骰 */,
+				5C7A06DC2019CAC4009DF151 /* 手势 */,
+				5C969D942018815D004BBEB8 /* View */,
+				5C969D5E20187E46004BBEB8 /* AppDelegate.h */,
+				5C969D5F20187E46004BBEB8 /* AppDelegate.m */,
+				5C969D9120188087004BBEB8 /* BeeHomeViewController.h */,
+				5C969D9220188087004BBEB8 /* BeeHomeViewController.m */,
+				5C969D6420187E46004BBEB8 /* Main.storyboard */,
+				5C969D6720187E46004BBEB8 /* Assets.xcassets */,
+				5C969D6920187E46004BBEB8 /* LaunchScreen.storyboard */,
+				5C969D6C20187E46004BBEB8 /* Info.plist */,
+				5C969D6D20187E46004BBEB8 /* main.m */,
+				5C969D9020187EE3004BBEB8 /* PrefixHeader.pch */,
+			);
+			path = "6个六斋";
+			sourceTree = "<group>";
+		};
+		5C969D7620187E47004BBEB8 /* 6个六斋Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5C969D7720187E47004BBEB8 /* ____Tests.m */,
+				5C969D7920187E47004BBEB8 /* Info.plist */,
+			);
+			path = "6个六斋Tests";
+			sourceTree = "<group>";
+		};
+		5C969D8120187E47004BBEB8 /* 6个六斋UITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C969D8220187E47004BBEB8 /* ____UITests.m */,
+				5C969D8420187E47004BBEB8 /* Info.plist */,
+			);
+			path = "6个六斋UITests";
+			sourceTree = "<group>";
+		};
+		5C969D942018815D004BBEB8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5C7A06D72019BBE7009DF151 /* BeeDiceView.h */,
+				5C7A06D82019BBE8009DF151 /* BeeDiceView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B2ABA2F27B40BE71E40CF012 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				163C2EFAEFB0463A84507466 /* libPods-6个六斋.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB88238EB0A8C5496339B8FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1DA1C0EE0683B20996660EF /* Pods-6个六斋.debug.xcconfig */,
+				3EC413F5379EDF00274AAB0C /* Pods-6个六斋.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C969D5A20187E46004BBEB8 /* 6个六斋 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C969D8720187E47004BBEB8 /* Build configuration list for PBXNativeTarget "6个六斋" */;
+			buildPhases = (
+				1E7FC0A733227866F86DD634 /* [CP] Check Pods Manifest.lock */,
+				5C969D5720187E46004BBEB8 /* Sources */,
+				5C969D5820187E46004BBEB8 /* Frameworks */,
+				5C969D5920187E46004BBEB8 /* Resources */,
+				3500BC31352EC166117602E6 /* [CP] Embed Pods Frameworks */,
+				55CFFF9F8E5AD5A7ABD2E2BF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "6个六斋";
+			productName = "6个六斋";
+			productReference = 5C969D5B20187E46004BBEB8 /* 6个六斋.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C969D7220187E47004BBEB8 /* 6个六斋Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C969D8A20187E47004BBEB8 /* Build configuration list for PBXNativeTarget "6个六斋Tests" */;
+			buildPhases = (
+				5C969D6F20187E47004BBEB8 /* Sources */,
+				5C969D7020187E47004BBEB8 /* Frameworks */,
+				5C969D7120187E47004BBEB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C969D7520187E47004BBEB8 /* PBXTargetDependency */,
+			);
+			name = "6个六斋Tests";
+			productName = "6个六斋Tests";
+			productReference = 5C969D7320187E47004BBEB8 /* 6个六斋Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C969D7D20187E47004BBEB8 /* 6个六斋UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C969D8D20187E47004BBEB8 /* Build configuration list for PBXNativeTarget "6个六斋UITests" */;
+			buildPhases = (
+				5C969D7A20187E47004BBEB8 /* Sources */,
+				5C969D7B20187E47004BBEB8 /* Frameworks */,
+				5C969D7C20187E47004BBEB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C969D8020187E47004BBEB8 /* PBXTargetDependency */,
+			);
+			name = "6个六斋UITests";
+			productName = "6个六斋UITests";
+			productReference = 5C969D7E20187E47004BBEB8 /* 6个六斋UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C969D5320187E46004BBEB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = GD_Bee;
+				TargetAttributes = {
+					5C969D5A20187E46004BBEB8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					5C969D7220187E47004BBEB8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5C969D5A20187E46004BBEB8;
+					};
+					5C969D7D20187E47004BBEB8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5C969D5A20187E46004BBEB8;
+					};
+				};
+			};
+			buildConfigurationList = 5C969D5620187E46004BBEB8 /* Build configuration list for PBXProject "6个六斋" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C969D5220187E46004BBEB8;
+			productRefGroup = 5C969D5C20187E46004BBEB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C969D5A20187E46004BBEB8 /* 6个六斋 */,
+				5C969D7220187E47004BBEB8 /* 6个六斋Tests */,
+				5C969D7D20187E47004BBEB8 /* 6个六斋UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C969D5920187E46004BBEB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C969D6B20187E46004BBEB8 /* LaunchScreen.storyboard in Resources */,
+				5C969D6820187E46004BBEB8 /* Assets.xcassets in Resources */,
+				5C679A48202ADA5D00700310 /* yaoshaizi.mp3 in Resources */,
+				5C969D6620187E46004BBEB8 /* Main.storyboard in Resources */,
+				5C679A4A202ADA6C00700310 /* zuobisound.m4a in Resources */,
+				5C679A4F202ADD8400700310 /* dushen.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C969D7120187E47004BBEB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C969D7C20187E47004BBEB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E7FC0A733227866F86DD634 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-6个六斋-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3500BC31352EC166117602E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-6个六斋/Pods-6个六斋-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55CFFF9F8E5AD5A7ABD2E2BF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-6个六斋/Pods-6个六斋-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C969D5720187E46004BBEB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C7A06DF2019CAC4009DF151 /* UIView+WhenTappedBlocks.m in Sources */,
+				5C7A06D92019BBE8009DF151 /* BeeDiceView.m in Sources */,
+				5C969D6E20187E46004BBEB8 /* main.m in Sources */,
+				5CBC1535202BE9C8007E5751 /* BeeFiveExplainViewController.m in Sources */,
+				5C26D52F2029A759001F266C /* BeeThreeDiceContentView.m in Sources */,
+				5C969D9320188087004BBEB8 /* BeeHomeViewController.m in Sources */,
+				5C26D52C2029962E001F266C /* BeeThreeDiceViewController.m in Sources */,
+				5CBC1538202BEC49007E5751 /* BeeThreeExplainViewController.m in Sources */,
+				5C83D1862021AFD4009F4C2B /* BeeBragContentView.m in Sources */,
+				5C969D6020187E46004BBEB8 /* AppDelegate.m in Sources */,
+				5C83D1832021AC3F009F4C2B /* BeeBragViewController.m in Sources */,
+				5C26D5252029881C001F266C /* BeeOneDiceViewController.m in Sources */,
+				5CBC1532202BDF54007E5751 /* BeeOneExplainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C969D6F20187E47004BBEB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C969D7820187E47004BBEB8 /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C969D7A20187E47004BBEB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C969D8320187E47004BBEB8 /* ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C969D7520187E47004BBEB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C969D5A20187E46004BBEB8 /* 6个六斋 */;
+			targetProxy = 5C969D7420187E47004BBEB8 /* PBXContainerItemProxy */;
+		};
+		5C969D8020187E47004BBEB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C969D5A20187E46004BBEB8 /* 6个六斋 */;
+			targetProxy = 5C969D7F20187E47004BBEB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C969D6420187E46004BBEB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C969D6520187E46004BBEB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C969D6920187E46004BBEB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C969D6A20187E46004BBEB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C969D8520187E47004BBEB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5C969D8620187E47004BBEB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C969D8820187E47004BBEB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1DA1C0EE0683B20996660EF /* Pods-6个六斋.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z7GR6ZAZKT;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/6个六斋/PrefixHeader.pch";
+				INFOPLIST_FILE = "6个六斋/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GD-Bee.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C969D8920187E47004BBEB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EC413F5379EDF00274AAB0C /* Pods-6个六斋.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z7GR6ZAZKT;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/6个六斋/PrefixHeader.pch";
+				INFOPLIST_FILE = "6个六斋/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GD-Bee.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5C969D8B20187E47004BBEB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "6个六斋Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GD-Bee.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/6个六斋.app/6个六斋";
+			};
+			name = Debug;
+		};
+		5C969D8C20187E47004BBEB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "6个六斋Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GD-Bee.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/6个六斋.app/6个六斋";
+			};
+			name = Release;
+		};
+		5C969D8E20187E47004BBEB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "6个六斋UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GD-Bee.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "6个六斋";
+			};
+			name = Debug;
+		};
+		5C969D8F20187E47004BBEB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "6个六斋UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GD-Bee.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "6个六斋";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C969D5620187E46004BBEB8 /* Build configuration list for PBXProject "6个六斋" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C969D8520187E47004BBEB8 /* Debug */,
+				5C969D8620187E47004BBEB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C969D8720187E47004BBEB8 /* Build configuration list for PBXNativeTarget "6个六斋" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C969D8820187E47004BBEB8 /* Debug */,
+				5C969D8920187E47004BBEB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C969D8A20187E47004BBEB8 /* Build configuration list for PBXNativeTarget "6个六斋Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C969D8B20187E47004BBEB8 /* Debug */,
+				5C969D8C20187E47004BBEB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C969D8D20187E47004BBEB8 /* Build configuration list for PBXNativeTarget "6个六斋UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C969D8E20187E47004BBEB8 /* Debug */,
+				5C969D8F20187E47004BBEB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C969D5320187E46004BBEB8 /* Project object */;
+}

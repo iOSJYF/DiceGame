@@ -1,0 +1,53 @@
+//
+//  PrefixHeader.pch
+//  6个六斋
+//
+//  Created by Ji_YuFeng on 2018/1/24.
+//  Copyright © 2018年 GD_Bee. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#import <Masonry.h>
+#import <Aspects.h>
+#import "UIView+WhenTappedBlocks.h"
+
+#if __has_feature(objc_arc)
+#define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self;
+#else
+#define WS(weakSelf)  __block __typeof(&*self)weakSelf = self;
+#endif
+
+#define ScreenHeight                [UIScreen mainScreen].bounds.size.height
+#define ScreenWidth                 [UIScreen mainScreen].bounds.size.width
+#define USER_DEFAULT                [NSUserDefaults standardUserDefaults]
+#define BeeAppWindow                [UIApplication sharedApplication].delegate.window
+#define BeeAppDelegate              [AppDelegate shareAppDelegate]
+#define BeeNavigationHeight         ([UIApplication sharedApplication].statusBarFrame.size.height+44)
+#define BeeStatusHeight             [UIApplication sharedApplication].statusBarFrame.size.height
+#define BeeSafeAreaInsets(view)     ({UIEdgeInsets insets; if(@available(iOS 11.0, *)) {insets = view.safeAreaInsets;} else {insets = UIEdgeInsetsZero;} insets;})
+
+// 字体
+#define SYSTEMFONT(FONTSIZE)         [UIFont systemFontOfSize:FONTSIZE]
+
+
+// key
+#define IFTHEFIRST      @"IFTHEFIRST"
+#define OneOfShake      @"OneOfShake"
+#define ThreeOfShake    @"ThreeOfShake"
+#define FiveOfShake     @"FiveOfShake"
+
+
+#ifdef DEBUG
+#define BeeNSLog(format, ...) printf("class: <%p %s:(%d) > method: %s \n%s\n", self, [[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, __PRETTY_FUNCTION__, [[NSString stringWithFormat:(format), ##__VA_ARGS__] UTF8String] )
+#else
+#define BeeNSLog(format, ...)
+#endif
+
+
+#endif /* PrefixHeader_pch */
