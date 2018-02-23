@@ -1,5 +1,5 @@
 # DiceGame
-项目使用了cocospod，又设置了忽略文件，所以下载的时候请自行 pod install 一下 <br>
+项目使用了Cocoapods，又设置了忽略文件，所以下载的时候请自行 pod install 一下 <br>
 项目主要利用CATransform3DRotate改变view的perspective来实现骰子的3D旋转功能，再进行随机数来达到摇骰子的功能 <br>
 因为使用了毛玻璃，所以在模拟器的情况下会崩溃，建议真机运行，或者将毛玻璃效果(全局搜索maoboli)屏蔽即可 <br>
 先附上效果图(使用liceape制作的gif，gif效果没有实际的好):<br>
